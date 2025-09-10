@@ -13,7 +13,7 @@ public class ejercicio1 extends JFrame {
         jp = new JPanel();
         add(jp);
 
-         // Blay();
+          Blay();
          // FLay();
         // CLay();
         setVisible(true);
@@ -63,7 +63,7 @@ public class ejercicio1 extends JFrame {
 
         jp.add(panel1, "card1");
         jp.add(panel2, "card2");
-        
+
         card.show(jp, "card2");
     }
 
